@@ -1,9 +1,9 @@
-# BotConnector Skype For Business
+# Skype for business as channel for BotConnector
 ============================
 
 ## Overview ##
 
-using Lync SDK and botconnector SDK I builف Skype for business connector
+using Lync SDK and botconnector SDK I built Skype for business channel for BotConnector
 
 ## steps: ##
  - Create your own Bot connector Web API
