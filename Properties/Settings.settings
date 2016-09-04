@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MrSamwiseBot.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectorEmulatorPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9009</Value>
+    </Setting>
+    <Setting Name="AppId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">YourAppId</Value>
+    </Setting>
+    <Setting Name="AppSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">YourAppSecret</Value>
+    </Setting>
+    <Setting Name="BotURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://taha-amin.otventures.local/PizzaBot/api/messages</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
