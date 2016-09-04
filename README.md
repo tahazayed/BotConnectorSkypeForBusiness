@@ -1,9 +1,12 @@
-# BotConnectorSkypeForBusiness
-BotConnector Skype For Business
+# BotConnector Skype For Business
+============================
 
-Overview
+**current status: beta**
+
+## Overview ##
+
 using Lync SDK and botconnector SDK I build Skype for business connector
-steps:
+## steps: ##
 1-create your own Bot connector Web API
 2-change API in app.config
 3-you should run skype for business client and logged in
