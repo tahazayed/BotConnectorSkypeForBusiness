@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MrSamwiseBot", "MrSamwiseBot.csproj", "{B355BE1C-3669-4A11-A137-2810F6619B0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BF9830E-9324-408C-910C-C0E249E32010}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleService", "SampleService", "{C4285805-DB62-4709-B861-9C7B4A487EC4}"
+	ProjectSection(SolutionItems) = preProject
+		SampleService\PizzaBot.zip = SampleService\PizzaBot.zip
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

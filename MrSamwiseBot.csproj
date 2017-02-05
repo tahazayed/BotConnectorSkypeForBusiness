@@ -41,6 +41,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="HtmlAgilityPack">
       <HintPath>ExternalDLLS\HtmlAgilityPack.dll</HintPath>
@@ -164,7 +167,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>start xcopy   /Y /Q /R "$(SolutionDir)MrSamwiseBot\ExternalDLLS\*" "$(SolutionDir)MrSamwiseBot\bin\$(ConfigurationName)"</PostBuildEvent>
+    <PostBuildEvent>start xcopy   /Y /Q /R "$(SolutionDir)\ExternalDLLS\*" "$(SolutionDir)\bin\$(ConfigurationName)"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>
